@@ -15,6 +15,11 @@ h2 {
   font-size: medium;
   font-weight: 200;
 }
+
+h2:hover {
+  font-size: larger;
+  background-color: lightcoral;
+}
 /* END SETUP */
 
 /* Classes that you might find useful */
@@ -32,6 +37,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -91,18 +97,33 @@ h2 {
   background-color: #000;
 }
 
+.red {
+  background-color: red;
+}
+
+.light-blue {
+  background-color: lightblue;
+}
+
+#white {
+  background-color: white;
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 50px;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 50px;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 100px;
 }
 
 /* END QUESTION 2 */
@@ -130,6 +151,8 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  align-self: center;
+  width: 33.3%;
 }
 
 .mexico-red {
