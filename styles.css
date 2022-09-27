@@ -162,7 +162,7 @@ h2:hover {
 /* QUESTION 6 */
 .margin-container {
   height: 300px;
-  width: 1030px;
+  width: 1010px;
   border-style: solid;
   margin-bottom: 5rem;
   display: flex;
@@ -173,11 +173,15 @@ h2:hover {
 .flag1 {
   background-color: red;
   /* TODO */
+  margin-right: 10px;
+
+
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
+
 }
 /* For padding practice */
 .padding-container {
@@ -185,4 +189,6 @@ h2:hover {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  /*To make the area to be 60% of the original one*/
+  padding: 18.972%;
 }
